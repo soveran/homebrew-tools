@@ -29,3 +29,21 @@ it defaults to `#`. Lines containing only white space are preserved.
 $ brew install prep
 ```
 
+### [trim](https://github.com/soveran/trim)
+
+Trim is a tool for removing prefixes from blocks of text. It reads
+from stdin and proceeds to remove the passed prefix from each line.
+If the prefix argument is omited it defaults to `#`.
+
+```shell
+$ brew install trim
+```
+
+### [chen](https://github.com/soveran/chen)
+
+Chen lets you edit a list of directory entries with your default
+text editor. Any renamed lines will result in renamed file names.
+
+```shell
+$ brew install chen
+```
