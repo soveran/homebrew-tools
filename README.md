@@ -47,3 +47,12 @@ text editor. Any renamed lines will result in renamed file names.
 ```shell
 $ brew install chen
 ```
+
+### [mailcat](https://github.com/soveran/mailcat)
+
+Mailcat is a fake SMTP server that streams to stdout all the incoming
+emails.
+
+```shell
+$ brew install mailcat
+```
