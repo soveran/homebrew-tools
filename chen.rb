@@ -1,8 +1,8 @@
 class Chen < Formula
-  desc "Change directory entries"
+  desc "Change directory entries with your text editor"
   homepage "https://github.com/soveran/chen"
-  url "https://github.com/soveran/chen/archive/0.1.0.tar.gz"
-  sha256 "152328dc4bdee0a88c27939ea060deb103491bd97d5511f280d9a57c88859b21"
+  url "https://github.com/soveran/chen/archive/1.0.0.tar.gz"
+  sha256 "3a536a6e758c82a096484b2a108a2c054c57854f7b18c477648da098265ea5c5"
 
   def install
     system "make", "PREFIX=#{prefix}", "install"
