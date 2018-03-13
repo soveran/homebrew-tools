@@ -56,3 +56,12 @@ emails.
 ```shell
 $ brew install mailcat
 ```
+
+### [map](https://github.com/soveran/map)
+
+Map lets you process each line from stdin with a command of your
+choice.
+
+```shell
+$ brew install map
+```
