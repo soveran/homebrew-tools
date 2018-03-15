@@ -1,8 +1,8 @@
 class Map < Formula
   desc "Map lines from stdin to commands"
   homepage "https://github.com/soveran/map"
-  url "https://github.com/soveran/map/archive/0.1.0.tar.gz"
-  sha256 "5f971b9c24322ee5cdcd678c71b88f366d50f6888e0352e6751ba710ce0b7a7e"
+  url "https://github.com/soveran/map/archive/0.1.1.tar.gz"
+  sha256 "6903d2bb6d7e0cddceee487cc35b442e5e78a459785aa5ae7c84f13090f193f0"
 
   def install
     system "make", "PREFIX=#{prefix}", "install"
