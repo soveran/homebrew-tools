@@ -65,3 +65,13 @@ choice.
 ```shell
 $ brew install map
 ```
+
+### [hi](https://github.com/soveran/hi)
+
+Read from stdin and display only the lines containing an exact match
+of the passed text. The matching text is highlighted when stdout
+is a TTY.
+
+```shell
+$ brew install hi
+```
